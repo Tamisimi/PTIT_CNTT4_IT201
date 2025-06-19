@@ -43,3 +43,16 @@ int main() {
 
     return 0;
 }
+
+
+checkDupSubArray(int numbers[], int size) {
+//B1: Tạo ra mảng phụ để kiểm tra xem phần tử trùng lặp
+int seenNumbers[1001];
+//B2: Xét từng phần tử
+for(int i = 0; i < size; i++{
+	//B3: Kiểm tra xem phần tử được tìm thấy chưa
+	if(seenNumbers(numbers[i]) == 1 {
+		//B4: Nếu đã từng được tìm thấy thì trả về giá trị 1
+		return 1;
+	}
+}
