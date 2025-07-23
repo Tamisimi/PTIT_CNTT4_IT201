@@ -24,6 +24,17 @@ Node *createNode(int data) {
     return newNode;
 }
 
+Node *deleteTreeNode(Node *root, int data) {
+    Queue queue = createQueue(data);
+    Node *target = NULL;
+    Node *lastNode = NULL;
+    Node *lastParent = NULL;
+    while (!iEmpty(queue)) {
+        Node *currentNode = dequeue;
+
+    }
+}
+
 int main() {
     Node *root = NULL;
     root = createNode(1);
